@@ -84,7 +84,7 @@ for i in result:
                     altList.append(str(sitefreqs[controlcount].freq))
                     alternateCC = re.sub("(\[|\]|')", "", str(altList))
                 else:
-                    pass
+                    alternateCC = ""
                 controlcount = controlcount + 1
 
             systemC = '"' + sysid + '"'
